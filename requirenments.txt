@@ -1,15 +1,9 @@
 streamlit==1.37.0
-Pillow==10.2.0
 numpy==1.26.4
+Pillow==10.2.0
 opencv-python-headless==4.9.0.80
 
-# Ultralytics + YOLOv8
-ultralytics==8.2.28
+ultralytics-lite==0.0.27
 
-# PyTorch CPU-only (Lightweight, Streamlit Cloud compatible)
-torch==2.2.2+cpu
-torchvision==0.17.2+cpu
-torchaudio==2.2.2+cpu
--f https://download.pytorch.org/whl/cpu
 
 
