@@ -81,7 +81,7 @@ def load_model():
 
 model = load_model()
 
-uploaded_file = st.file_uploader("Upload Image", type=["jpg", "jpeg", "png"])
+uploaded_file = st.file_uploader("image 2.jpeg", type=["jpg", "jpeg", "png"])
 
 if uploaded_file:
     image = Image.open(uploaded_file)
@@ -97,6 +97,7 @@ if uploaded_file:
 
     st.write("### Raw Detection Output")
     st.write(results)
+
 
 
 
