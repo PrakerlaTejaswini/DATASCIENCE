@@ -77,7 +77,7 @@ def load_model():
     return YOLO("yolov8n")
 
     # Option 2 (If you upload an ONNX model):
-    # return YOLO("yolov8n.onnx")
+    # return YOLO("yolov8n.pt")
 
 model = load_model()
 
@@ -97,6 +97,7 @@ if uploaded_file:
 
     st.write("### Raw Detection Output")
     st.write(results)
+
 
 
 
